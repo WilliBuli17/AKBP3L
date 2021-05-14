@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navbarMenu"
+        android:icon="@drawable/ic_menu_book"
+        android:title="Menu" />
+    <item
+        android:id="@+id/navbarChartSementara"
+        android:icon="@drawable/ic_shopping"
+        android:title="Chart Sementara" />
+    <item
+        android:id="@+id/navbarPesananSaya"
+        android:icon="@drawable/ic_food_bank"
+        android:title="Pesanan Saya" />
+</menu>

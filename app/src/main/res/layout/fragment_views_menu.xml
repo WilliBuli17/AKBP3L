@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_view_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.styephenwilliambuli.testandroidp3l.Views.ViewsMenu">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/pewter_blue"
+            android:padding="5dp"
+            android:id="@+id/recycler_view"
+            tools:listitem="@layout/activity_adapter_menu" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</FrameLayout>
